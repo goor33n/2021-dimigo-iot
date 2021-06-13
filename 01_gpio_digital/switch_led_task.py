@@ -21,10 +21,10 @@ GPIO.setup(GREEN_SWITCH_PIN, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 
 try:
   while True:
-    redVal = GPIO.input(RED_SWITCH_PIN) # 누르지 않은 경우 0, 눌렀을 때는 1
+    redVal = GPIO.input(RED_SWITCH_PIN) 
     yellowVal = GPIO.input(YELLOW_SWITCH_PIN) 
     greenVal = GPIO.input(GREEN_SWITCH_PIN) 
-    GPIO.output(RED_PIN, redVal)    # GPIO.HIGH (1), GPIO.LOW (0)
+    GPIO.output(RED_PIN, redVal) 
     GPIO.output(YELLOW_PIN, yellowVal)    
     GPIO.output(GREEN_PIN, greenVal)    
     

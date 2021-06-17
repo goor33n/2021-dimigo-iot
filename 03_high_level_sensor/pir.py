@@ -19,7 +19,7 @@ try:
     else:
       print('움직임 없음')
 
-      time.sleep(0.1)
+    time.sleep(0.1)
 finally:
   GPIO.cleanup()
   print('Clean up and Exit')

@@ -2,7 +2,7 @@ import Adafruit_DHT
 import time
 
 sensor = Adafruit_DHT.DHT11
-DHT_PIN = 4
+DHT_PIN = 16
 
 try:
   while True:

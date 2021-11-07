@@ -1,10 +1,10 @@
 import cv2
 
 # image 파일 읽기
-img = cv2.imread('BTS.jpg')
-img2 = cv2.resize(img, (600, 400))
+img = cv2.imread('photo.jpeg')
+img2 = cv2.resize(img, (400, 600))
 
-cv2.imshow('BTS', img2)
+cv2.imshow('asdf', img2)
 
 # 키보드 입력을 기다림 (millisecond)
 # 기본값 0, 0인 경우 키보드 입력이 있을 때까지 계속 기다림

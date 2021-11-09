@@ -10,7 +10,7 @@ app = Flask(__name__)
 def hello():
   return render_template(
     "hello.html",
-    title="Hello, Flask!!")
+    title="Hello, Flask world!!")
 
 @app.route("/first")
 def first():

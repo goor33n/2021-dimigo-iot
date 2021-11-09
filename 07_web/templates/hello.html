@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
+  {# Junja Flask 내장 Template 엔진 #}
   <body>
-    <p>Hello, Flask!!</p>
+    {% if title %}
+    <p>{{ title }}</p>
+    {% endif %}
     <a href="/first">Go first</a>
     <a href="/second">Go Second</a>
   </body>
